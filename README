@@ -4,3 +4,6 @@ Requires (at the moment) HTTP::Table::FromDatabase to diplay the data from the d
 
 /!\ Static path to fetch the database /!\
 -> modify lib/MojoBot/Display.pm line 10
+
+
+Launch with: perl script/mojobot.pl daemon --reload 
