@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+  <head><title>IRC Stats for #pourlesbots</title><head>
+  <center><h1>IRC Stats page for #pourlesbots</h1>
+  <h2>by LolBot</h2>
+  </center>
+  <body><%= content %></body>
+</html>

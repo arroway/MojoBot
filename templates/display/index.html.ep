@@ -1,0 +1,2 @@
+% layout 'index';
+%= link_to Login => 'login'
