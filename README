@@ -1,1 +1,5 @@
 A simple web interface for the LolBot module using the Mojolicious web framework.
+
+Requires (at the moment) HTTP::Table::FromDatabase to diplay the data from the database created by the LolBot.
+
+/!\ Static path to fetch the database /!\

@@ -4,5 +4,7 @@
   <center><h1>IRC Stats page for #pourlesbots</h1>
   <h2>by LolBot</h2>
   </center>
-  <body><%= content %></body>
+  <body>
+    <%= content %>
+  </body>
 </html>
