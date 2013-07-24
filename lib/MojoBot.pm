@@ -1,27 +1,31 @@
 package MojoBot;
 use Mojo::Base 'Mojolicious';
-use MyUsers;
-use DBI;
 
 
 sub startup {
 
   my $self = shift; 
-
-  # Make signed cookies secure
-  $self->secret('Mojolicious rocks');
-
-   my $users = MyUsers->new;
-  $self->helper(users => sub { return $users });
+  
+  $self->secret('LolBotSecretSecret');
 
   #Router
   my $r = $self->routes;
 
   $r->any('/')->to('display#index')->name('index');
-  #$r->get('db_connect')->to('display#db_connect')->name('db_connect');
-  $r->any('/login')->to('login#login')->name('login');
-  $r->get('/protected')->to('login#protected')->name('protected');
-  $r->get('/logout')->to('login#logout')->name('logout')
+  $r->get('/tree/capslock')->to('tree#capslock');
+  $r->get('/tree/facepalm')->to('tree#facepalm');
+  $r->get('/tree/interrogative')->to('tree#interrogative');
+  $r->get('/tree/lol')->to('tree#lol');
+  $r->get('/tree/log')->to('tree#log');
+  $r->get('/tree/osef')->to('tree#osef');
+  $r->get('/tree/sad')->to('tree#sad');
+  $r->get('/tree/happy')->to('tree#happy');
+  $r->get('/tree/amazed')->to('tree#amazed');
+  $r->get('/tree/confused')->to('tree#confused');
+  $r->get('/tree/fpga')->to('tree#fpga');
+  $r->get('/tree/win')->to('tree#win');
+  $r->get('/tree/demoralized')->to('tree#demoralized');
+  $r->get('/tree/rage')->to('tree#rage');
 }
 
 1;

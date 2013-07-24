@@ -1,10 +1,302 @@
 <!DOCTYPE html>
 <html>
-  <head><title>IRC Stats for #pourlesbots</title><head>
-  <center><h1>IRC Stats page for #pourlesbots</h1>
-  <h2>by LolBot</h2>
-  </center>
-  <body>
-    <%= content %>
-  </body>
+	<head>
+		<title>IRC Stats for #pourlesbots</title>
+    		<script src="/js/jquery-1.8.0.min.js"></script>
+		<script language="javascript" type="text/javascript" src="/js/jit.js"></script>
+    		<script language="javascript" type="text/javascript" src="/js/jit-yc.js"></script>
+		<script language="javascript" type="text/javascript" src="/js/charts.js"></script>
+		<link type="text/css" href="/css/AreaChart.css" rel="stylesheet" /> 
+		<link type="text/css" href="/css/base.css" rel="stylesheet" /> 
+	</head>
+
+ 	<body onload="init();">
+	<h1>IRC Stats pour #int</h1>
+  
+	<h2>by LolBot</h2>
+ 
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Capslock</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Facepalm</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis2"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Interrogative</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis3"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Lol</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis4"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Log</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis5"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Osef</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis6"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Sad</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis7"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Happy</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis8"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Amazed</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis9"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Confused</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis10"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>FPGA</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis11"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Win</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis12"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Demoralized</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis13"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+	<div id="container">
+        	<div id="left-container">
+			<div class="text">
+        			<h4>Rage</h4> 
+			</div>
+
+			<div style="text-align:center;"></div>
+		</div>
+
+		<div id="center-container">
+    			<div id="infovis14"></div>    
+		</div>
+
+		<div id="right-container">
+			<div id="inner-details"></div>
+		</div>
+
+		<div id="log"></div>
+	</div>
+
+
+
+	</body>
+
 </html>

@@ -1,7 +1,0 @@
-% layout 'protected';
-% if (my $message = flash 'message') {
-  <b><%= $message %></b><br>
-% }
-Welcome <%= session 'user' %>.<br>
-%= link_to Logout => 'logout'
-
