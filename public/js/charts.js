@@ -15,7 +15,7 @@ var labelType, useGradients, nativeTextSupport, animate;
   animate = !(iStuff || !nativeCanvasSupport);
 })();
 
-var barsOffset = 10;
+var barsOffset = 15;
 var left = 10;
 var right = 10
 var bottom = 5;
@@ -24,7 +24,7 @@ function init(){
 
   var barChart = new $jit.BarChart({  
   injectInto: 'infovis',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -64,7 +64,7 @@ function init(){
 
   var barChart2 = new $jit.BarChart({  
   injectInto: 'infovis2',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -104,7 +104,7 @@ function init(){
 
   var barChart3 = new $jit.BarChart({  
   injectInto: 'infovis3',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -144,7 +144,7 @@ function init(){
 
   var barChart4 = new $jit.BarChart({  
   injectInto: 'infovis4',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -184,7 +184,7 @@ function init(){
 
   var barChart5 = new $jit.BarChart({  
   injectInto: 'infovis5',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -224,7 +224,7 @@ function init(){
 
   var barChart6 = new $jit.BarChart({  
   injectInto: 'infovis6',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -264,7 +264,7 @@ function init(){
 
   var barChart7 = new $jit.BarChart({  
   injectInto: 'infovis7',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -304,7 +304,7 @@ function init(){
 
   var barChart8 = new $jit.BarChart({  
   injectInto: 'infovis8',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -344,7 +344,7 @@ function init(){
 
   var barChart9 = new $jit.BarChart({  
   injectInto: 'infovis9',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -384,7 +384,7 @@ function init(){
 
   var barChart10 = new $jit.BarChart({  
   injectInto: 'infovis10',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -424,7 +424,7 @@ function init(){
 
   var barChart11 = new $jit.BarChart({  
   injectInto: 'infovis11',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -464,7 +464,7 @@ function init(){
 
   var barChart12 = new $jit.BarChart({  
   injectInto: 'infovis12',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -504,7 +504,7 @@ function init(){
 
   var barChart13 = new $jit.BarChart({  
   injectInto: 'infovis13',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  
@@ -544,7 +544,7 @@ function init(){
 
   var barChart14 = new $jit.BarChart({  
   injectInto: 'infovis14',  
-  animate: true,  
+  animate: false,  
   orientation: 'vertical',  
   hoveredColor: '#ece5e4', 
   barsOffset: barsOffset,  

@@ -18,7 +18,9 @@
 	<div id="container">
         	<div id="left-container">
 			<div class="text">
-        			<h4>Capslock</h4> 
+        			<h4>Capslockers</h4>
+				<p>CAPSLOCK ! <br>
+				CAPSLOCK !</p> 
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -39,6 +41,7 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>Facepalm</h4> 
+				<p>/me facepalm</p>
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -58,7 +61,9 @@
 	<div id="container">
         	<div id="left-container">
 			<div class="text">
-        			<h4>Interrogative</h4> 
+        			<h4>???</h4>
+				<p>Quelqu'un a des <br>
+				questions ? </p>
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -79,6 +84,8 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>Lol</h4> 
+				<p>aussi lulz, loul et <br>
+				looooool</p>
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -99,6 +106,7 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>Log</h4> 
+				Qui parle le plus...
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -119,6 +127,7 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>Osef</h4> 
+				Rien à battre
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -139,6 +148,7 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>Sad</h4> 
+				:'(
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -159,6 +169,9 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>Happy</h4> 
+				<p>(dans le rôle de<br>
+				 Happy) :D</p>
+			
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -178,7 +191,8 @@
 	<div id="container">
         	<div id="left-container">
 			<div class="text">
-        			<h4>Amazed</h4> 
+        			<h4>Mais W..T..F..</h4> 
+				<p>:o</p>
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -199,6 +213,7 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>Confused</h4> 
+				:x
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -219,6 +234,7 @@
         	<div id="left-container">
 			<div class="text">
         			<h4>FPGA</h4> 
+				 Arduilol
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -238,7 +254,8 @@
 	<div id="container">
         	<div id="left-container">
 			<div class="text">
-        			<h4>Win</h4> 
+        			<h4>Win</h4>
+				Epic \o/ 
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -258,7 +275,8 @@
 	<div id="container">
         	<div id="left-container">
 			<div class="text">
-        			<h4>Demoralized</h4> 
+        			<h4>-_-</h4>
+				<p>Sans commentaire</p>
 			</div>
 
 			<div style="text-align:center;"></div>
@@ -278,7 +296,8 @@
 	<div id="container">
         	<div id="left-container">
 			<div class="text">
-        			<h4>Rage</h4> 
+        			<h4>Rage-o-meter</h4> 
+				!rage
 			</div>
 
 			<div style="text-align:center;"></div>

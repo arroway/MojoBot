@@ -20,7 +20,7 @@ h4 {
     font-size:1.1em;
     text-decoration:none;
     font-weight:normal;
-    color:#23A4FF;
+    color:#000000;
 }
 
 a {
@@ -37,7 +37,7 @@ a {
 #left-container, 
 #right-container, 
 #center-container {
-    height:600px;
+    height:400px;
     position:absolute;
     top:0;
 }
@@ -72,8 +72,8 @@ a {
 }
 
 #center-container {
-    width:800px;
-    left:200px;
+    width:1000px;
+    left:150px;
     background-color:#1a1a1a;
     color:#ccc;
 }
@@ -103,8 +103,8 @@ a {
 #infovis10, #infovis11, #infovis12,
 #infovis13, #infovis14 {
     position:relative;
-    width:800px;
-    height:600px;
+    width:1000px;
+    height:400px;
     margin:auto;
     overflow:hidden;
 }
