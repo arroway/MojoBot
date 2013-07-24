@@ -1,9 +1,16 @@
-A simple web interface for the LolBot module using the Mojolicious web framework.
+# MojoBot
 
-Requires (at the moment) HTTP::Table::FromDatabase to diplay the data from the database created by the LolBot.
+A simple page web interface for the LolBot module.
 
-/!\ Static path to fetch the database /!\
--> modify lib/MojoBot/Display.pm line 10
+## Dependencies
 
+### Perl modules
 
-Launch with: perl script/mojobot.pl daemon --reload 
+* Mojolicious
+* DBI
+* JSON
+
+### JavaScript libraries
+
+* JQuery
+* Jit
