@@ -8,7 +8,7 @@ sub query {
   my $self = shift;
   my $attribute = shift;
 
-  my $args = "DBI:SQLite:dbname=/home/arroway/LolBot/:data.db";
+  my $args = "DBI:SQLite:dbname=/home/arroway/LolBot/data.db";
   my $db = DBI->connect($args, "", "", { RaiseError => 1, AutoCommit => 1 }) or die $DBI::errstr;
 
   my $query = qq{ SELECT name, $attribute FROM nicknames };
