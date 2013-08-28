@@ -22,10 +22,13 @@ sub query {
   my @list;
   my $row;
   while ($row = $sth->fetchrow_arrayref()) {
-    my %values;
-    $values{'label'} = @$row[0]; 
-    $values{'values'} = @$row[1]; 
-    push(@list, \%values);
+    #Display only if value is not 0
+    if(@$row[1]){
+      my %values;
+      $values{'label'} = @$row[0]; 
+      $values{'values'} = @$row[1]; 
+      push(@list, \%values);
+    }
   }
 
   $json_hash{'values'} = \@list;
